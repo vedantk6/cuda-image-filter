@@ -14,7 +14,7 @@ This project implements Gaussian blur using CUDA C++ and compares it to a CPU Op
 | CPU     | 0.45     | 1.0x    |
 | GPU     | 0.02     | 22.5x   |
 
-## 🧠 Learnings
+## Learnings
 - GPU memory coalescing improves throughput
 - Shared memory boosts performance
 - Thread indexing must handle edge cases
